@@ -13,7 +13,7 @@ spec:
         app: flask-web
     spec:
       containers:
-      - name: flask-container
-        image: wksanduni/flask-app:v1
-        ports:
-        - containerPort: 5000
+        - name: flask-container
+          image: wksanduni/flask-app:v1
+          ports:
+            - containerPort: 5000
